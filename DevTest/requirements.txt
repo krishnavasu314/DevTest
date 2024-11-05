@@ -1,7 +1,7 @@
-Django==5.1.2 any key to open up the browser to login or q to exit:
-et_xmlfile==2.0.0o https://cli-auth.heroku.com/auth/cli/browser/49e2d854-8e42-4952-9e3c-d2676bceb311?requestor=SFMyNTY.g
-gunicorn==23.0.0y4xNTAuMjluBgDIR3X1kgFiAAFRgA.TKaNIhrL8ckjQNy7UGm6m7r17RsS5Afwm6IAblWSVyE
-numpy==2.1.2ing for login...
+Django==5.1.2
+et_xmlfile==2.0.0
+gunicorn==23.0.0
+numpy==2.1.2
 openpyxl==3.1.5
 packaging==24.1
 pandas==2.2.3

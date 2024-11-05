@@ -15,7 +15,7 @@ def upload_file_view(request):
         except ValueError:
          
             try:
-                df = pd.read_csv(uploaded_file, encoding='ISO-8859-1')  # Try common alternative encoding
+                df = pd.read_csv(uploaded_file, encoding='ISO-8859-1')  
             except UnicodeDecodeError:
                 return render(request, 'uploadapp/upload.html', {
                     'error': 'File encoding is unsupported. Please upload a valid CSV or Excel file.'
@@ -47,7 +47,7 @@ def upload_file_view(request):
                 subject=subject,
                 message="Please find the summary report below.",
                 from_email=settings.DEFAULT_FROM_EMAIL,
-                recipient_list=['vasukrishn2002@gmail.com'],
+                recipient_list=['tech@themedius.ai'],
                 html_message=html_message, 
             )
             return render(request, 'uploadapp/sucess.html')
